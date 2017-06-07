@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99F"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/widget_water_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:src="@drawable/water_drop_blue"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/grass_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grass"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
